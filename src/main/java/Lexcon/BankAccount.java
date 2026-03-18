@@ -18,7 +18,6 @@ public class BankAccount {
         return balance;
     }
 
-    // Setter بسيط
     public void setAccountHolder(String accountHolder) {
         this.accountHolder = accountHolder;
     }
