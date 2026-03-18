@@ -1,0 +1,8 @@
+Order
+-------------------------
+- orderId : int
+- product : Product
+- quantity : int
+-------------------------
++ Order(int orderId, Product product, int quantity)
++ calculateTotalPrice() : double

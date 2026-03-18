@@ -20,5 +20,8 @@ public class Main {
 
         System.out.println("Product 1 price: " + p1.getPrice());
         System.out.println("Product 2 price: " + p2.getPrice());
+
+        Order order1 = new Order(1, p1, 2);
+        System.out.println("Order ID: 1, Total: " + order1.calculateTotalPrice());
     }
 }
