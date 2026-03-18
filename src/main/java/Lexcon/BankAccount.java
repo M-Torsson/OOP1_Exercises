@@ -18,6 +18,17 @@ public class BankAccount {
         return balance;
     }
 
+    // Setter بسيط
+    public void setAccountHolder(String accountHolder) {
+        this.accountHolder = accountHolder;
+    }
+
+    public void setBalance(double balance) {
+        if (balance >= 0) {
+            this.balance = balance;
+        }
+    }
+
     public void deposit(double amount) {
         balance = balance + amount;
     }
