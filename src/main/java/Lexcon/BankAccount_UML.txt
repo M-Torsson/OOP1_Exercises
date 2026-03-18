@@ -1,0 +1,10 @@
+BankAccount
+-------------------------
+- accountHolder : String
+- balance : double
+-------------------------
++ BankAccount(String accountHolder, double balance)
++ getAccountHolder() : String
++ getBalance() : double
++ deposit(double amount) : void
++ withdraw(double amount) : void

@@ -1,0 +1,7 @@
+Customer
+-------------------------
+- name : String
+- account : BankAccount
+-------------------------
++ Customer(String name, BankAccount account)
++ getAccount() : BankAccount
