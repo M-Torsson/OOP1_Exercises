@@ -1,0 +1,9 @@
+Student
+-------------------------
+- studentId : int
+- name : String
+- age : int
+- major : String
+-------------------------
++ Student(int studentId, String name, int age, String major)
++ getName() : String
