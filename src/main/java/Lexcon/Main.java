@@ -14,5 +14,11 @@ public class Main {
 
         System.out.println("Student 1: " + s1.getName());
         System.out.println("Student 2: " + s2.getName());
+
+        Product p1 = new Product(1, "Phone", 500);
+        Product p2 = new Product(2, "Laptop", 1000);
+
+        System.out.println("Product 1 price: " + p1.getPrice());
+        System.out.println("Product 2 price: " + p2.getPrice());
     }
 }
